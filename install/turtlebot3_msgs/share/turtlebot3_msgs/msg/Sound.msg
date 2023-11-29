@@ -1,1 +1,0 @@
-/home/vodka/turtlebot3_ws/src/turtlebot3_msgs/msg/Sound.msg

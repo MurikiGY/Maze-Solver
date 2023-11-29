@@ -1,1 +1,0 @@
-/home/vodka/turtlebot3_ws/build/turtlebot3_solver/ament_cmake_core/turtlebot3_solverConfig.cmake
