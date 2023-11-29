@@ -1,0 +1,18 @@
+[1.644s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_teleop': PYTHONPATH=/home/vodka/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vodka/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps install_data
+[2.241s] running develop
+[2.483s] running egg_info
+[2.483s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[2.484s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[2.484s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[2.484s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[2.484s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.487s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.488s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.490s] running build_ext
+[2.490s] Creating /home/vodka/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.491s] Installing maze_solver script to /home/vodka/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.492s] Installing teleop_keyboard script to /home/vodka/turtlebot3_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.492s] 
+[2.492s] Installed /home/vodka/turtlebot3_ws/build/turtlebot3_teleop
+[2.492s] running install_data
+[2.692s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/vodka/turtlebot3_ws/build/turtlebot3_teleop/prefix_override:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/vodka/turtlebot3_ws/build/turtlebot3_teleop/build --no-deps install_data

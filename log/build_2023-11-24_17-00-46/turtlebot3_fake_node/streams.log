@@ -1,0 +1,75 @@
+[0.221s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vodka/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node
+[0.449s] -- The C compiler identification is GNU 11.4.0
+[0.694s] -- The CXX compiler identification is GNU 11.4.0
+[0.708s] -- Detecting C compiler ABI info
+[1.098s] -- Detecting C compiler ABI info - done
+[1.123s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.131s] -- Detecting C compile features
+[1.132s] -- Detecting C compile features - done
+[1.139s] -- Detecting CXX compiler ABI info
+[1.555s] -- Detecting CXX compiler ABI info - done
+[1.592s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.592s] -- Detecting CXX compile features
+[1.593s] -- Detecting CXX compile features - done
+[1.608s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.509s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.643s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.721s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.819s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.833s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.854s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.896s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.993s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.683s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.955s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[4.252s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.260s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.703s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.769s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.921s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.947s] -- Looking for pthread.h
+[5.116s] -- Looking for pthread.h - found
+[5.117s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.251s] -- Found Threads: TRUE  
+[5.568s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[5.765s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[5.801s] -- Found tf2_msgs: 0.25.5 (/opt/ros/humble/share/tf2_msgs/cmake)
+[6.170s] -- Found turtlebot3_msgs: 2.2.3 (/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[6.510s] -- Configuring done
+[6.539s] -- Generating done
+[6.543s] -- Build files have been written to: /home/vodka/turtlebot3_ws/build/turtlebot3_fake_node
+[6.569s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake /home/vodka/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node
+[6.570s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vodka/turtlebot3_ws/build/turtlebot3_fake_node -- -j4 -l4
+[6.666s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[19.030s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[19.777s] [100%] Built target turtlebot3_fake_node
+[19.790s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/vodka/turtlebot3_ws/build/turtlebot3_fake_node -- -j4 -l4
+[19.821s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vodka/turtlebot3_ws/build/turtlebot3_fake_node
+[19.830s] -- Install configuration: ""
+[19.831s] -- Execute custom install script
+[19.832s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[19.843s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[19.854s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[19.865s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[19.876s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[19.888s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[19.899s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[19.911s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[19.923s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[19.934s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[19.945s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[19.957s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[19.967s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[19.978s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[19.989s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[19.999s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[20.010s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[20.021s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[20.031s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[20.043s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.056s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.067s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[20.077s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[20.088s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[20.102s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/vodka/turtlebot3_ws/build/turtlebot3_fake_node

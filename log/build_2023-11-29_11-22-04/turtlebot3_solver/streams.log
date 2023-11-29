@@ -1,0 +1,21 @@
+[0.386s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_solver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vodka/turtlebot3_ws/build/turtlebot3_solver -- -j4 -l4
+[0.929s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_solver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vodka/turtlebot3_ws/build/turtlebot3_solver -- -j4 -l4
+[1.110s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_solver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vodka/turtlebot3_ws/build/turtlebot3_solver
+[1.121s] -- Install configuration: ""
+[1.123s] -- Execute custom install script
+[1.125s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/ament_index/resource_index/package_run_dependencies/turtlebot3_solver
+[1.126s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/ament_index/resource_index/parent_prefix_path/turtlebot3_solver
+[1.128s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/environment/ament_prefix_path.sh
+[1.128s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/environment/ament_prefix_path.dsv
+[1.129s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/environment/path.sh
+[1.130s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/environment/path.dsv
+[1.130s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/local_setup.bash
+[1.131s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/local_setup.sh
+[1.132s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/local_setup.zsh
+[1.133s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/local_setup.dsv
+[1.133s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/package.dsv
+[1.150s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/ament_index/resource_index/packages/turtlebot3_solver
+[1.151s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/cmake/turtlebot3_solverConfig.cmake
+[1.152s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/cmake/turtlebot3_solverConfig-version.cmake
+[1.154s] -- Up-to-date symlink: /home/vodka/turtlebot3_ws/install/turtlebot3_solver/share/turtlebot3_solver/package.xml
+[1.602s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_solver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vodka/turtlebot3_ws/build/turtlebot3_solver

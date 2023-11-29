@@ -1,0 +1,86 @@
+[0.469s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/vodka/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vodka/turtlebot3_ws/install/turtlebot3_node
+[0.715s] -- The C compiler identification is GNU 11.4.0
+[1.017s] -- The CXX compiler identification is GNU 11.4.0
+[1.059s] -- Detecting C compiler ABI info
+[1.483s] -- Detecting C compiler ABI info - done
+[1.498s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.499s] -- Detecting C compile features
+[1.501s] -- Detecting C compile features - done
+[1.507s] -- Detecting CXX compiler ABI info
+[1.874s] -- Detecting CXX compiler ABI info - done
+[1.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.896s] -- Detecting CXX compile features
+[1.897s] -- Detecting CXX compile features - done
+[1.909s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.811s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.131s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.285s] -- Found dynamixel_sdk: 3.7.60 (/home/vodka/turtlebot3_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[3.300s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.484s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.512s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.552s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.628s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.192s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[4.529s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.545s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.103s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.260s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.428s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.456s] -- Looking for pthread.h
+[5.793s] -- Looking for pthread.h - found
+[5.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.129s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.131s] -- Found Threads: TRUE  
+[6.642s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[7.044s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.388s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[7.477s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[7.576s] -- Found tf2_ros: 0.25.5 (/opt/ros/humble/share/tf2_ros/cmake)
+[9.215s] -- Found turtlebot3_msgs: 2.2.3 (/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[9.803s] -- Configuring done
+[9.874s] -- Generating done
+[9.878s] -- Build files have been written to: /home/vodka/turtlebot3_ws/build/turtlebot3_node
+[10.032s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/vodka/turtlebot3_ws/src/turtlebot3/turtlebot3_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vodka/turtlebot3_ws/install/turtlebot3_node
+[10.033s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vodka/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[10.215s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[15.640s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[19.674s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[20.423s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[34.446s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[36.466s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[38.492s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[39.898s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[44.183s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[46.814s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[48.567s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[56.728s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[57.614s] [ 85%] Built target turtlebot3_node_lib
+[57.637s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[61.606s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[63.860s] [100%] Built target turtlebot3_ros
+[63.873s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/vodka/turtlebot3_ws/build/turtlebot3_node -- -j4 -l4
+[63.932s] Invoking command in '/home/vodka/turtlebot3_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vodka/turtlebot3_ws/build/turtlebot3_node
+[63.941s] -- Install configuration: ""
+[63.942s] -- Execute custom install script
+[63.942s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[63.952s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[63.962s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[63.972s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[63.982s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[63.993s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[64.003s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[64.013s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[64.024s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[64.034s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[64.044s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[64.054s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[64.064s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[64.074s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[64.085s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[64.096s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[64.106s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[64.116s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[64.126s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[64.136s] -- Symlinking: /home/vodka/turtlebot3_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[64.149s] Invoked command in '/home/vodka/turtlebot3_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs:/home/vodka/turtlebot3_ws/install/dynamixel_sdk:/home/vodka/turtlebot3_ws/install/turtlebot3:/home/vodka/turtlebot3_ws/install/turtlebot3_simulations:/home/vodka/turtlebot3_ws/install/turtlebot3_bringup:/home/vodka/turtlebot3_ws/install/turtlebot3_node:/home/vodka/turtlebot3_ws/install/turtlebot3_navigation2:/home/vodka/turtlebot3_ws/install/turtlebot3_fake_node:/home/vodka/turtlebot3_ws/install/turtlebot3_gazebo:/home/vodka/turtlebot3_ws/install/turtlebot3_description:/home/vodka/turtlebot3_ws/install/turtlebot3_cartographer:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_examples:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/vodka/turtlebot3_ws/install/turtlebot3_teleop:/home/vodka/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble LD_LIBRARY_PATH=/home/vodka/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk/lib:/home/vodka/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/vodka/turtlebot3_ws/build/turtlebot3_node

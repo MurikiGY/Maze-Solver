@@ -1,0 +1,4 @@
+[console_scripts]
+maze_solver = turtlebot3_teleop.script.maze_solver:main
+teleop_keyboard = turtlebot3_teleop.script.teleop_keyboard:main
+
