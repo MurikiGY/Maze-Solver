@@ -1,7 +1,7 @@
 # Maze-Solver
 Turtlebot3 Burger maze solver
 
-Maze file to find the output:\
+Maze file to find the output:
 ```
 worlds/99.world
 ```
